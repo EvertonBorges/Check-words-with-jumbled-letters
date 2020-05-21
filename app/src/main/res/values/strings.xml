@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CheckWordsWithJumbledLetters</string>
+    <string name="first_word">First Word</string>
+    <string name="second_word">Second Word</string>
+    <string name="button_check_words">Check Words</string>
+    <string name="result_label">Result</string>
+    <string name="result_true">The words are partial-permutation</string>
+    <string name="result_false">The words are not partial-permutation</string>
 </resources>
