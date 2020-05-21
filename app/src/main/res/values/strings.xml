@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CheckWordsWithJumbledLetters</string>
+    <string name="app_name">Check Words With Jumbled Letters</string>
     <string name="first_word">First Word</string>
     <string name="second_word">Second Word</string>
     <string name="button_check_words">Check Words</string>
