@@ -8,34 +8,33 @@ import static org.junit.Assert.assertTrue;
 public class ExampleUnitTest {
 
     @Test
-    public void testPartialPermutationYou{
+    public void testPartialPermutationYou(){
         boolean result = Utils.checkPartialPermutation("you", "yuo");
         assertTrue(result);
     }
 
     @Test
-    public void testPartialPermutationProbably{
+    public void testPartialPermutationProbably(){
         boolean result = Utils.checkPartialPermutation("probably", "porbalby");
         assertTrue(result);
     }
 
     @Test
-    public void testPartialPermutation{
+    public void testPartialPermutation(){
         boolean result = Utils.checkPartialPermutation("despite", "desptie");
         assertTrue(result);
     }
 
     @Test
-    public void testPartialPermutationMoon{
+    public void testPartialPermutationMoon(){
         boolean result = Utils.checkPartialPermutation("moon", "nmoo");
         assertFalse(result);
     }
 
     @Test
-    public void testPartialPermutationMisspellings{
+    public void testPartialPermutationMisspellings(){
         boolean result = Utils.checkPartialPermutation("misspellings", "mpeissngslli");
         assertFalse(result);
     }
-
 
 }
