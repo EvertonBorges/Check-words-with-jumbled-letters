@@ -37,4 +37,10 @@ public class ExampleUnitTest {
         assertFalse(result);
     }
 
+    @Test
+    public void testPartialPermutationOccurrence(){
+        boolean result = Utils.checkPartialPermutation("occurrence", "occurrency");
+        assertFalse(result);
+    }
+
 }
